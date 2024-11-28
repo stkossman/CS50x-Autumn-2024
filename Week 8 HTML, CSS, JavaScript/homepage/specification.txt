@@ -1,0 +1,29 @@
+HTML tags:
+<script>
+<div>
+<ul>
+<nav>
+<section>
+<p>
+<h3>
+<li>
+<footer>
+<button>
+
+CSS properties:
+display: flex;
+font-family
+background
+max-width
+gap
+
+JavaScript and Bootstrap:
+The JavaScript snippet listens for a click event on an image inside the .about_container class and applies a "bounce" animation.
+The bounce effect is defined using @keyframes in the main.js file, and this effect adds a playful interaction,
+improving the user experience by drawing attention to the image when clicked.
+
+Bootstrap is used to handle the modal and button elements easily.
+The modal is a component that allows the page to display an overlay window for additional content, which is triggered by clicking the "Learn more" button.
+The button's data-bs-toggle and data-bs-target attributes work with Bootstrap's JavaScript to show or hide the modal dynamically.
+Bootstrap’s grid system is also implied in the flexbox structure and layout, which makes responsive design simpler.
+

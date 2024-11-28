@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const aboutImage = document.querySelector(".about_container .item img");
+
+            aboutImage.addEventListener("click", () => {
+                aboutImage.classList.add("bounce");
+                setTimeout(() => {
+                    aboutImage.classList.remove("bounce");
+                }, 2000);
+            });
+        });
+    </script>
+    <body>
+        <header>
+        <div class="header_inner">
+            <nav class="navigation">
+                <img src="img/stavskyi.jpg" alt="" class="logo">
+                <ul class="ul_nav">
+                    <li class="nav_item"><a class="nav_link" href="0">Main</a>
+                    </li>
+                    <li class="nav_item"><a class="nav_link" href="0">Write me</a>
+                    </li>
+                    <li class="nav_item"><a class="nav_link" href="0">Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="about">
+        <div class="about_container">
+            <div class="item">
+                <img src="img/612.jpg" alt="">
+            </div>
+            <div class="item">
+                <h3>About me</h3>
+                <p>My name is Andrii a.k.a Kossman. I don`t have many friends. In my free time I like playing the guitar, listening to the music and watching movies</p>
+
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="about">
+        <div class="about_container">
+            <div class="item">
+                <h3>My top 3 movies of all time</h3>
+                <ol>
+                    <li>King Arthur: Legend of the Sword(<a href="https://www.imdb.com/title/tt1972591/" target="_blank">imdb</a>)</li>
+                    <li>The Dark Knight(<a href="https://www.imdb.com/title/tt0468569/" target="_blank">imdb</a>) </li>
+                    <li>Devil's Advocate(<a href="https://www.imdb.com/title/tt0118971/" target="_blank">imdb</a>)</li>
+                </ol>
+            </div>
+            <div class="item">
+                <img src="img/king.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <hr>
+    <section class="about">
+        <div class="about_container">
+            <div class="item">
+                <img src="img/ostroh.png" alt="">
+            </div>
+            <div class="item">
+                <h3>Ostroh Academy</h3>
+                <p>Currently I am studying at Ostroh Academy. I chose these university because it is places very close to my town (about 60km). Also I have a lot of mates which suggested me to study here.</p>
+            </div>
+        </div>
+    </section>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aboutModal">
+        Learn more
+    </button>
+
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutModalLabel">Haha!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ha! You baited! Feel free to see my social media below!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_inner">
+            <div class="footer_logo_copy">
+                <img class="copy_footer" src="img/copy1.png" alt="">
+                <p class="copy_h">© 2024 Andrii Stavskyi</p>
+            </div>
+
+            <div class="footer_column">
+                <nav class="navigation">
+                    <ul class="ul_nav_footer">
+                        <li class="nav_item"><a class="nav_link" href="0">Instagram</a>
+                        </li>
+                        <li class="nav_item"><a class="nav_link" href="0">Telegram</a>
+                        </li>
+                        <li class="nav_item"><a class="nav_link" href="0">Twitter</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

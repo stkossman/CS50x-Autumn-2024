@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+header {
+    background: black;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.logo{
+    display: flex;
+    max-width: 500px;
+    margin-right: 90px;
+}
+
+.header_inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navigation {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul_nav {
+    display: flex;
+    gap: 200px;
+    list-style: none;
+}
+
+.nav_link {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+    transition: 0.5s;
+}
+
+
+footer{
+    background: black;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer_column{
+
+    color: #fff;
+}
+.copy_footer{
+    max-width: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.footer_logo_copy{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.footer_inner{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ul_nav_footer{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+p{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.item img{
+    max-width: 300px;
+
+}
+
+.about_container{
+    max-width: 1200px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+
+
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+
+}
+
+h3{
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+p{
+    font-size: 30px;
+    color: black;
+}
+
+.item{
+    margin-top: 80px;
+}
+
+.copy_h{
+    color: aliceblue;
+}
+
+ol{
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 50px;
+
+}
+
+li{
+    font-size: 30px;
+}

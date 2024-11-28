@@ -1,0 +1,26 @@
+sort1 uses: Bubble sort
+
+How do you know?:
+sorted50000txt -> 0.355s
+reversed50000txt -> 4.944s
+random50000txt -> 6.614s
+
+This is the fastest way to sort sorted files.
+
+sort2 uses: Merge Sort
+
+How do you know?:
+sorted50000txt -> 0.378
+reversed50000txt -> 0.385s
+random50000txt -> 0.329s
+
+For a reversed and random txt file with 50'000 numbers, it was faster compared to the other sorting programs.
+
+sort3 uses: Selection Sort
+
+How do you know?:
+sorted50000txt -> 2.666s
+reversed50000txt -> 2.959s
+random50000txt -> 2.988s
+
+It was the slowest sorting program in all files: sorted, random and reversed.
