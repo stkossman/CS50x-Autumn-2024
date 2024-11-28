@@ -26,4 +26,3 @@ I haven't done these tasks:
 - [Week 7 - SQL](https://github.com/stkossman/CS50x-Fall-2024/tree/main/Week%207%20SQL)
 - [Week 8 - HTML, CSS, JavaScript](https://github.com/stkossman/CS50x-Fall-2024/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript)
 - [Week 9 - Flask](https://github.com/stkossman/CS50x-Fall-2024/tree/main/Week%209%20Flask)
-- [Week 10 - Project](https://www.youtube.com/watch?v=NEX-5xm_I4o) - This link contains a youtube video of my final project.
