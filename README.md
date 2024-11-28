@@ -8,7 +8,6 @@ This is CS50: CS50’s Introduction to Computer Science!
 This repository contains my solutions for Problem Sets to [CS50x's course](https://cs50.harvard.edu/x/2024/).
 Every problem set achieved **more than 70%** after submitting.
 Read *readme* files if it is inside of week folder.
-PDF file of my CS50 Certificate - [**Click**](https://certificates.cs50.io/a87e956f-5077-47ed-a0c9-22e49d93d2e6.pdf?size=A4).
 
 ## !Important notes!
 I haven't done these tasks:
