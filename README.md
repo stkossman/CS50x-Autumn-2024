@@ -10,10 +10,7 @@ Every problem set achieved **more than 70%** after submitting.
 Read *readme* files if it is inside of week folder.
 
 ## !Important notes!
-I haven't done these tasks:
-- Week 4: Filter-more. I've done only *filter-less*.
-- Week 6: Mario-more. I've done only *mario-less*.
-- Week 6: Credit. I've dony only *cash*.
+I do not know whether you will get your certificate revoked or not. I do not know about my certificate either. I am posting these solutions on my own risk and you also take them on your own risk.
 
 ## Table of solutions
 - [Week 0 - Scratch](https://github.com/stkossman/CS50x-Fall-2024/tree/main/Week%200%20Scratch)
